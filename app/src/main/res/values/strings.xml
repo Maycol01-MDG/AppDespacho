@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppDespacho</string>
+
+
+    <string-array name="tipos_consumo">
+        <item>CONSUMO INTERNO</item>
+        <item>VALES MANUALES</item>
+    </string-array>
+
+    <string-array name="lista_bombas">
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+    </string-array>
+
+    <string-array name="lista_camiones_crc">
+
+
+        <item>CRC 13</item>
+        <item>CRC 14</item>
+        <item>CRC 15</item>
+        <item>CRC 16</item>
+    </string-array>
+</resources>

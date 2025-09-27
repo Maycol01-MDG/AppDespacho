@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/home"
+    android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/Registro_Consumo"
+        android:title="Consumo"
+        android:icon="@drawable/outline_add_24"/>
+    <item
+        android:id="@+id/Registro_transferenciaCRC"
+        android:title="Transferencia"
+        android:icon="@drawable/ic_transfer"/>
+
+    <item
+        android:id="@+id/logut"
+        android:title="Salida"
+        android:icon="@drawable/ic_logout"/>
+
+
+</menu>

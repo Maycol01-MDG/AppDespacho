@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha: "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/azul"
+            android:layout_marginBottom="6dp" />
+        <TextView
+            android:id="@+id/txtOperador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Operador: "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/txtBomba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bomba:" />
+
+        <TextView
+            android:id="@+id/txtLecturas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lecturas: " />
+
+        <TextView
+            android:id="@+id/txtSalidaVales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salida vales: " />
+
+        <TextView
+            android:id="@+id/txtSalidaContometro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salida contómetro: " />
+
+        <TextView
+            android:id="@+id/txtDiferencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diferencia: " />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
